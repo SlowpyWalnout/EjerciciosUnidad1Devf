@@ -1,0 +1,48 @@
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 3px solid white;
+}
+.chico-azul{
+    height: 80px;
+    width: 100%;
+    float: left;
+    background-color: cadetblue;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.header{
+    background-color: cadetblue;
+    height: 120px;
+    width: 100%;
+    float: left;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+}
+.container{
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    background-color: white;
+    display: flex;
+    height: 120px;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.side-derecho{
+    background-color: cadetblue;
+    width: 50vw;
+    height: 99%;
+    margin: none;
+    border-left: solid 3px white;
+}
+.side-izquierdo{
+    background-color: cadetblue;
+    width: 50vw;
+    height: 99%;
+    margin: none;
+    border-right: solid 3px white;
+}
